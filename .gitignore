@@ -53,7 +53,6 @@ coverage/
 *.tsbuildinfo
 
 # Edytory i systemy
-.vscode/
 .idea/
 *.sublime-workspace
 *.code-workspace
