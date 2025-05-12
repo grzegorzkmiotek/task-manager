@@ -1,0 +1,57 @@
+{
+	"workbench.editor.enablePreview": false,
+	"files.autoSave": "afterDelay",
+	"editor.formatOnSave": true,
+	"editor.wordWrap": "on",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.linkedEditing": true,
+	"editor.cursorBlinking": "expand",
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#ffd700",
+		"editorBracketHighlight.foreground2": "#ff00ff",
+		"editorBracketHighlight.foreground3": "#00bfff",
+		"editorBracketHighlight.foreground4": "#7cfc00",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+	},
+	"workbench.colorTheme": "Tokyo Night Storm",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.jsxSingleQuote": true,
+	"prettier.bracketSameLine": true,
+	"prettier.useTabs": true,
+
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[react]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"emmet.syntaxProfiles": {
+		"html": {
+			"inline_break": 2
+		}
+	},
+	"emmet.variables": {
+		"lang": "pl"
+	},
+	"editor.tabSize": 2,
+	"workbench.settings.applyToAllProfiles": [
+		"editor.tabSize",
+		"editor.fontSize",
+		"terminal.integrated.tabStopWidth"
+	],
+	"terminal.integrated.tabStopWidth": 2,
+	"git.openRepositoryInParentFolders": "always",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always"
+	},
+	"eslint.format.enable": true
+}
